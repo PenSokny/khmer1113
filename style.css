@@ -1,0 +1,90 @@
+body{
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	width: 1000px;
+	height: 100px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	/*border: 5px solid white;*/
+
+}
+
+#navbar{
+	background: blue;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 45px;  
+
+}
+
+#content{
+	width: 750px;
+	float: left;
+	padding: 5px;
+	background-color: white;
+	margin-left: 175px;
+}
+#sidebar{
+	width: 240px;
+	height: 500px;
+	float: right;	
+	background-color: gray;
+	margin-right: 174px;
+
+}
+#footer{
+	background-color: blue;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+
+}
+
+#logo{
+	float: left;
+}
+#banner1{
+	float: right;
+
+}
+#banner2{
+	float: right;
+}
+
+#ul{
+	padding-top: 8px;
+}
+
+#ul li{
+	list-style: none;
+	display: inline;
+}
+
+#ul li a:link{
+	color: white;
+	text-decoration: none;
+	border-right: 1px solid gray;
+	font-size: 18px;
+	font-family: comic sans MS;
+	margin: 3px;
+}
+
+#ul li a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 18px;
+	background-color: orange;
+	padding: 3px;
+
+
+}
+
+
